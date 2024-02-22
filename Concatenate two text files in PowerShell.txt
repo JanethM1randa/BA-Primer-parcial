@@ -1,0 +1,15 @@
+Bioinformática avanzada
+
+
+Concatenate two text files in PowerShell
+Get-Content inputFile1.txt, inputFile2.txt | Set-Content joinedFile.txt
+
+LS Dir - List
+cd - ir a
+cd.. - regresa a 
+
+#Para descargar una librería#
+install.packages("BiocManager")
+Library(BiocManager)
+BiocManager::install("sangeranalyseR")
+Library(sangeranalyseR)
